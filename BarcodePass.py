@@ -1,7 +1,7 @@
 from barcode import Code128
 from barcode.writer import ImageWriter
 
-number = "w#@t3v3R"
+number = input("enter The barcode sample ")
 barcode = Code128(number, writer= ImageWriter())
 
 
