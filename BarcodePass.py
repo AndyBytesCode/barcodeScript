@@ -6,3 +6,5 @@ barcode = Code128(number, writer= ImageWriter())
 
 
 barcode.save('Barcode')
+
+print("This is a Test")
